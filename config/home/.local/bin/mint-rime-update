@@ -1,0 +1,7 @@
+#!/bin/bash
+cd ~/.local/share/fcitx5/rime
+git fetch --depth 1
+git reset --hard origin/main
+killall fcitx5 2>/dev/null || true
+fcitx5 -d &
+echo "✅ 薄荷输入法 已增量更新！"

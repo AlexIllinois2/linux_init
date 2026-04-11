@@ -1,0 +1,7 @@
+patch:
+  engine:
+    translators:
+      - lua_translator@cloud_pinyin
+  cloud_pinyin:
+    engine: sogou  # 可选：baidu/qq
+    max_results: 8

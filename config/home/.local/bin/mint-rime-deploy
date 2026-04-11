@@ -1,0 +1,4 @@
+#!/bin/bash
+killall fcitx5 2>/dev/null || true
+fcitx5 -d &
+echo "✅ Rime 已重新部署！"

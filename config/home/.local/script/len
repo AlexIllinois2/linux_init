@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# 打印当前目录大小
+
+c="$(ls -a $1 | wc -l)"
+total="$(expr "$c" - 2)"
+echo "total: $total $(du -hs $1)"

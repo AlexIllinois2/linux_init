@@ -1,0 +1,8 @@
+patch:
+  switcher.save_options:
+    - half_shape  # 保留半角模式
+    - ascii_punct # 保留西文模式
+    - transcription     # 保留汉字简繁体选项
+    - emoji_suggestion  # Emoji
+  menu.page_size: 7
+  
