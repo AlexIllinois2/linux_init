@@ -22,3 +22,5 @@ alias grep="grep --color=auto"
 # vim
 export EDITOR="vim" 
 alias v="vim"
+
+
